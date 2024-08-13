@@ -10,6 +10,7 @@ body {
 }
 
 .other-heroes {
+  padding-top: 30px;
   width: 80%;
 }
 
@@ -47,4 +48,8 @@ ul {
 
 .how-it-works-text {
   text-align: center;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
 }
