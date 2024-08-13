@@ -24,8 +24,27 @@ body {
 
 .discoverTextContainter {
   background: #f0911b;
+  padding: 5px 30px;
 }
 
 .white-text {
   color: white;
+}
+
+.footer-info {
+  background: lightgrey;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  padding: 20px 20px; 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.how-it-works-text {
+  text-align: center;
 }
